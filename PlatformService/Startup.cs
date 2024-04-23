@@ -1,18 +1,14 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using PlatformService.Data;
+using PlatformService.SynDataServices.Http;
+using PlatforService.SyncDataService.Http;
 
 namespace PlatformService
 {
@@ -32,7 +28,7 @@ namespace PlatformService
             opt.UseInMemoryDatabase("InMem"));
 
             services.AddScoped<IPlatformRepo,PlatformRepo>();
-
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
             
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -40,6 +36,8 @@ namespace PlatformService
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformService", Version = "v1" });
             });
+
+            Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandsService"]}");
         }
 
       
