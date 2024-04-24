@@ -42,3 +42,5 @@ spec:
 #kubectl get deployments
 
 #kubectl get pods
+
+#kubectl rollout restart deployment platforms-depl
