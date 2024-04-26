@@ -1,0 +1,9 @@
+------migration-----
+if you ever dont have dotnet migrations please firstly as bellow code :
+# dotnet tool install --global dotnet-ef --version 5.0.17   (this package compatible to .Net5)
+
+please copy to powershell or cmd as bellow code :
+
+dotnet ef migrations add initialmigration
+
+
