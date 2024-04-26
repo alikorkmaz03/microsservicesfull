@@ -6,4 +6,18 @@ please copy to powershell or cmd as bellow code :
 
 dotnet ef migrations add initialmigration
 
+kubectl rollout restart deployment
 
+If you have problem migration please delete migrations folder and run command as below : 
+
+# dotnet ef migrations add InitialCreate
+
+
+# docker build -t alikorkmaz03/platformservice .
+# docker push alikorkmaz03/platformservice
+# kubectl apply -f platforms-depl.yaml
+# kubectl rollout restart deployment platforms-depl.yaml
+# kubectl get deployments
+# kubectl get pods
+# docker run -p 8080:80 -d alikorkmaz03/platformservice ->docker run on 8080:80  ports
+# docker ps -> list for docker container 
