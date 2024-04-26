@@ -32,3 +32,6 @@ C:\Windows\System32\drivers\etc
 -> please add the following code above "#Added by Docker Desktop":
 
 127.0.0.1 acme.com
+
+-----------------------------------
+# kubectl get storageclass
