@@ -56,7 +56,7 @@ namespace CommandsService.Data{
             return _context.Platforms.Any(p=>p.Id==platformId) ;
         }
 
-        public bool saveChanges()
+        public bool SaveChanges()
         {
             return (_context.SaveChanges() >=0);
         }
