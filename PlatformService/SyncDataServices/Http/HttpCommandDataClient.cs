@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using PlatformService.Dtos;
-using PlatforService.SyncDataService.Http;
+ 
 
-namespace PlatformService.SynDataServices.Http
+namespace PlatformService.SyncDataServices.Http
 {
     public class HttpCommandDataClient : ICommandDataClient
     {
