@@ -41,3 +41,5 @@ C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\obj\Debug\
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\obj\Debug\net5.0\ref\CommandsService.dll
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\obj\Debug\net5.0\CommandsService.pdb
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\obj\Debug\net5.0\CommandsService.genruntimeconfig.cache
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\CommandsService\bin\Debug\net5.0\RabbitMQ.Client.dll
