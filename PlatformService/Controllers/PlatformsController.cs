@@ -53,16 +53,16 @@ namespace PlatformService.Controllers
 
         [HttpPost]
         public async Task<ActionResult<PlatformReadDto>> CreatePlatform(PlatformCreateDto platformCreateDto)
-        {
+        {   
             var platformModel = _mapper.Map<Platform>(platformCreateDto);
             _repository.CreatePlatform(platformModel);
             _repository.SaveChanges();
-
+            
             var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
 
             //Send Sync Message
             try
-            {
+            {   
                 await _commandDataClient.SendPlatformToCommand(platformReadDto);
             }
             catch(Exception ex)
@@ -70,14 +70,14 @@ namespace PlatformService.Controllers
                 Console.WriteLine($"--> Could not send synchronusly : {ex.Message}");
             }
            
-
             //Send Async Message
-
             try
             {
+                Console.WriteLine($"--> Asynchronous message triggered...");
+                 
                 var platformPublishedDto = _mapper.Map<PlatformPublishedDto>(platformReadDto);
-                platformPublishedDto.Event="Platform_Published";
-                _messageBusClient.PublishNewPlatform(platformPublishedDto);
+                platformPublishedDto.Event="Platform_Published";              
+                 _messageBusClient.PublishNewPlatform(platformPublishedDto);              
                 
             }
             catch (Exception ex)

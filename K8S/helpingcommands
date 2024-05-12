@@ -50,4 +50,4 @@ Böyle bir yazı görmelisin gördüysen eriştin demektir.-->  root@rabbitmq-de
 
 rabbitmqctl list_users  -> kullanıcıları listele 
 rabbitmqctl change_password guest Aa123456789 -> guest kullanıcısını kullanıyordum şifresini değiştirdim. 
-
+rabbitmqctl set_permissions -p / guest ".*" ".*" ".*" -> yetki verir

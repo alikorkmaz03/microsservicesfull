@@ -61,7 +61,7 @@ namespace CommandsService.EventProcessing
                 try
                 {
                     var plat = _mapper.Map<Platform>(platformPublishedDto);
-                    if (!repo.ExternalPlatformExist(plat.ExternalId))
+                    if (!repo.ExternalPlatformExists(plat.ExternalId))
                     {
                         repo.CreatePlatform(plat);
                         repo.SaveChanges();  
@@ -69,7 +69,7 @@ namespace CommandsService.EventProcessing
                     }
                     else
                     {
-                        Console.WriteLine($"--> Platform already exist!");
+                        Console.WriteLine($"--> Platform already exists!");
                     }
                 }
                 catch (Exception ex)

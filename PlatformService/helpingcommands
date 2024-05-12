@@ -21,3 +21,9 @@ If you have problem migration please delete migrations folder and run command as
 # kubectl get pods
 # docker run -p 8080:80 -d alikorkmaz03/platformservice ->docker run on 8080:80  ports
 # docker ps -> list for docker container 
+----Kısa Not---
+Singleton: Uygulamanın başında oluşturulan bir instance, uygulama süresi boyunca kullanılır. Tüm kullanıcılar ve istekler için aynı instance kullanılır.
+
+Transient: Her çağrıldığında yeni bir instance oluşturulur. İşlem tamamlandığında, o instance'ın ömrü sona erer ve bir sonraki çağrıda yine yeni bir instance oluşturulur.
+
+Scoped: Her kullanıcı isteği (veya daha genel olarak "scope") başladığında bir instance oluşturulur ve o istek/scope sona erdiğinde instance kapatılır.
