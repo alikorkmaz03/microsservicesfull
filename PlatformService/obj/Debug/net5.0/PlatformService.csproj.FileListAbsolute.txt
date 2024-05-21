@@ -68,3 +68,10 @@ C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\obj\Debug\
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\appsettings.Production.json
 C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Users\ali-k\source\alikorkmaz03\microsservicesfull\PlatformService\bin\Debug\net5.0\Grpc.Net.Common.dll

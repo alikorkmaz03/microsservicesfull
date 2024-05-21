@@ -22,7 +22,7 @@
       "dotnetRunMessages": "true",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:6001;http://localhost:6000", // We changed port number because we didn't want ports in other projects to conflict.
+      "applicationUrl": "https://localhost:6001;http://localhost:6000", /** We changed port number because we didn't want ports in other projects to conflict.**/
 
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "h0EzIkMrFMhmx0kF8eYFYOGWyk4vcD83MpilTd4lzDya9qbyG70233rz+6dWjdGCvtQyynajR/+vvwF2uAC4cg==",
+  "dgSpecHash": "N1k24TvVXIIUVuDK06iUhIzaxMogbN4RuUGF/98z3aV/u2pak817HDwNyAWVGFrblD8iPqs/5tly/wil1mbRmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ali-k\\source\\alikorkmaz03\\microsservicesfull\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali-k\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ali-k\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\ali-k\\.nuget\\packages\\google.protobuf\\3.17.3\\google.protobuf.3.17.3.nupkg.sha512",
+    "C:\\Users\\ali-k\\.nuget\\packages\\grpc.tools\\2.39.1\\grpc.tools.2.39.1.nupkg.sha512",
     "C:\\Users\\ali-k\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ali-k\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ali-k\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.15\\microsoft.entityframeworkcore.5.0.15.nupkg.sha512",
