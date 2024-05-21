@@ -19,7 +19,7 @@ namespace PlatformService.SyncDataServices.Grpc
 
         public override Task<PlatformResponse> GetAllPlatforms(GettAllRequest request, ServerCallContext context)
         {
-            var response = new  PlatformResponse();
+            var response = new PlatformResponse();
             var platforms = _repository.GetAllPlatforms();
 
             foreach (var plat in platforms)
