@@ -1,7 +1,7 @@
 # Microservices Full
 
 Bu proje, mikroservis mimarisi ile oluşturulmuş tam donanımlı bir uygulamadır. Projede, çeşitli teknolojiler ve araçlar kullanılarak, ölçeklenebilir ve esnek bir yapı oluşturulmuştur.
-
+Çalışmalarınızı lütfen develop branch'inden yapın.
 ## Özellikler
 
 ### Kullanılan Teknolojiler
