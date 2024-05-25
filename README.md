@@ -1,6 +1,7 @@
 # Microservices Full
 
 Bu proje, mikroservis mimarisi ile oluşturulmuş tam donanımlı bir uygulamadır. Projede, çeşitli teknolojiler ve araçlar kullanılarak, ölçeklenebilir ve esnek bir yapı oluşturulmuştur.
+Çalışmalarınızı lütfen develop branch'inden yapın.
 
 ## Özellikler
 
@@ -40,7 +41,7 @@ Postman konfigürasyonları K8S projesi içinde mevcuttur.Import edebilirsiniz..
 
 ## Katkıda Bulunma
 
-Katkılarınızı bekliyoruz! Pull request oluşturabilir veya sorunları bilidirebilirsiniz.
+Katkılarınızı bekliyoruz! Pull request oluşturabilir veya sorunları bilidirebilirsiniz.Çalışmalarınızı lütfen develop branch'inden yapın!...
 
 ## Lisans
 
